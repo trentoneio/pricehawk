@@ -1,7 +1,8 @@
 # PriceHawk — Local Tech Price Tracker (Project Plan)
 
 - **Status:** PLANNING only. No code exists yet; build happens in the sessions below.
-- **Location:** `C:\Users\Trenton\coding-project\pricehawk`
+- **Location:** `C:\Users\Trenton\coding-projects\pricehawk`
+  (shell paths: Git Bash/MSYS2 → `/c/Users/Trenton/coding-projects/pricehawk`; WSL → `/mnt/c/Users/Trenton/coding-projects/pricehawk`)
 - **Target host:** TrueNAS SCALE, deployed as a single Docker container managed through Dockage.
 - **Scope (v1):** tech products — Amazon, Micro Center, Newegg, Best Buy, Server Parts Deals (forum).
 
@@ -140,7 +141,7 @@ Type: feature | fix | refactor | docs | chore | test | perf
 ## 12. Session plan (vibecoding handoffs)
 
 **Protocol for every new session:**
-1. `cd C:\Users\Trenton\coding-project\pricehawk`, run `git log --oneline -5`.
+1. `cd` into the repo root (`C:\Users\Trenton\coding-projects\pricehawk`; shell paths per header above), run `git log --oneline -5`.
 2. Read this PLAN.md §12 + your session's section, then the tail of `SESSION_LOG.md`.
 3. Implement in small slices; run `pytest` after each slice.
 4. Commit per logical change with the `Type:` footer (§11).
